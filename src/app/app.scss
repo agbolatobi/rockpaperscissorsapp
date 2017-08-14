@@ -1,0 +1,68 @@
+// http://ionicframework.com/docs/v2/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+ion-header{
+      background-color: #ffffff;
+    opacity:0.4;
+}
+ion-content{
+background: url('../img/backgroundregular.fw.png') center / cover;
+}
+div.rockyellow{
+    
+    background: url('../img/rockYellow.fw.png') center;
+}
+div.rockRed{
+    background: url('../img/rockRed.fw.png') center;
+}
+div.rockGreen{
+    background: url('../img/rockGreen.fw.png') center;
+}
+div.paperyellow{
+    
+    background: url('../img/paperYellow.fw.png') center;
+}
+div.paperRed{
+    background: url('../img/paperRed.fw.png') center;
+}
+div.paperGreen{
+    background: url('../img/paperGreen.fw.png') center;
+}
+div.scissorsyellow{
+    
+    background: url('../img/scissorsYellow.fw.png') center;
+}
+div.scissorsRed{
+    background: url('../img/scissorsRed.fw.png') center;
+}
+div.scissorsGreen{
+    background: url('../img/scissorsGreen.fw.png') center;
+}
+div.startGame{
+    background: url('../img/startGame.fw.png') center;
+}
+div.play-center{
+   margin-left:25% !important; 
+   border-radius: 500px;
+   width:130px;
+    height:130px;
+}
+p.score{
+color:whitesmoke;
+font-weight: 600;
+}
+span.score{
+color:whitesmoke;
+font-weight: 600;
+}
